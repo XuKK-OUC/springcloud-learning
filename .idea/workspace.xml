@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2214b7d-8fe8-471a-9fd5-22b1bb11aa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/config/MyConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/controller/DCController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/controller/DCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/service/DCService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/controller/FileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/controller/UploadController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/atnewstar/eurekaconsumer/controller/DCController.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-consumer/src/main/java/com/atnewstar/eurekaconsumer/controller/DCController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -18,6 +18,9 @@
     <ignored path="$PROJECT_DIR$/eureka-client/target/" />
     <ignored path="$PROJECT_DIR$/eureka-consumer/target/" />
     <ignored path="$PROJECT_DIR$/eureka-consumer-ribbon/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-consumer-feign/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-feign-upload-server/target/" />
+    <ignored path="$PROJECT_DIR$/eureka-feign-upload-client/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,46 +30,91 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/controller/FileUploadController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            <state relative-caret-position="691">
+              <caret line="45" selection-start-line="45" selection-end-line="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="179">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="33">
+              <caret line="107" selection-start-line="107" selection-end-line="107" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="216">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+            <state relative-caret-position="216">
+              <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/service/UploadService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="254">
+              <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/controller/UploadController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="121">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/EurekaFeignUploadServerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -102,6 +150,22 @@
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/controller/DCController.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/service/DCService.java" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/controller/DCController.java" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/EurekaFeignUploadServerApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/controller/UploadController.java" />
+        <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplication.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/upload.txt" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/service/UploadService.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplicationTests.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/UploadTester.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/eureka-feign-upload-client/pom.xml" />
       </list>
     </option>
   </component>
@@ -124,10 +188,10 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="520" />
-    <option name="y" value="15" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1679" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -147,25 +211,87 @@
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atnewstar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atnewstar" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeignuploadclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atnewstar" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeignuploadclient" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="atnewstar" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekafeignuploadclient" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -173,48 +299,32 @@
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-consumer-ribbon" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springcloud-learning" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud-learning" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka-feign-upload-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -234,16 +344,17 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568601393535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568619864106" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\idea workspace\springcloud-learning\eureka-feign-upload-client\src\test\java\com\atnewstar\eurekafeignuploadclient" />
       <recent name="G:\idea workspace\springcloud-learning\eureka-consumer-ribbon\src\main\resources" />
       <recent name="G:\idea workspace\springcloud-learning\eureka-consumer-ribbon\src\main\java\com\atnewstar\eurekaconsumerribbon" />
       <recent name="G:\idea workspace\springcloud-learning\src\main\resources" />
@@ -261,7 +372,70 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaConsumerRibbonApplication">
+  <component name="RunManager" selected="Spring Boot.EurekaFeignUploadClientApplication">
+    <configuration name="EurekaFeignUploadClientApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-feign-upload-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.eurekafeignuploadclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.EurekaFeignUploadClientApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaFeignUploadClientApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-feign-upload-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.eurekafeignuploadclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.EurekaFeignUploadClientApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-feign-upload-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.eurekafeignuploadclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.UploadTester" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UploadTester.testHandleFileUpload" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="eureka-feign-upload-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.eurekafeignuploadclient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.UploadTester" />
+      <option name="METHOD_NAME" value="testHandleFileUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.eurekaclient.EurekaClientApplication" />
@@ -276,9 +450,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EurekaConsumerFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-consumer-feign" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.eurekaconsumerfeign.EurekaConsumerFeignApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaConsumerRibbonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-consumer-ribbon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.eurekaconsumerribbon.EurekaConsumerRibbonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaFeignUploadClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign-upload-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.eurekafeignuploadclient.EurekaFeignUploadClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaFeignUploadServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-feign-upload-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.eurekafeignuploadserver.EurekaFeignUploadServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -290,6 +485,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UploadTester" />
+        <item itemvalue="JUnit.UploadTester.testHandleFileUpload" />
+        <item itemvalue="JUnit.EurekaFeignUploadClientApplicationTests.test" />
+        <item itemvalue="JUnit.EurekaFeignUploadClientApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -301,16 +504,47 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1568596714636</updated>
-      <workItem from="1568596717056" duration="4631000" />
+      <workItem from="1568596717056" duration="15131000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="UploadTester - 2019.09.16 at 11h 50m 44s.xml">
+      <configuration name="UploadTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester - 2019.09.16 at 14h 04m 14s.xml">
+      <configuration name="UploadTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester - 2019.09.16 at 14h 05m 35s.xml">
+      <configuration name="UploadTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EurekaFeignUploadClientApplicationTests_contextLoads - 2019.09.16 at 14h 07m 53s.xml">
+      <configuration name="EurekaFeignUploadClientApplicationTests.contextLoads" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EurekaFeignUploadClientApplicationTests_test - 2019.09.16 at 14h 09m 22s.xml">
+      <configuration name="EurekaFeignUploadClientApplicationTests.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester_testHandleFileUpload - 2019.09.16 at 14h 27m 04s.xml">
+      <configuration name="UploadTester.testHandleFileUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester_testHandleFileUpload - 2019.09.16 at 14h 29m 55s.xml">
+      <configuration name="UploadTester.testHandleFileUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester_testHandleFileUpload - 2019.09.16 at 14h 30m 41s.xml">
+      <configuration name="UploadTester.testHandleFileUpload" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester - 2019.09.16 at 14h 31m 31s.xml">
+      <configuration name="UploadTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadTester - 2019.09.16 at 14h 35m 22s.xml">
+      <configuration name="UploadTester" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4631000" />
+    <option name="totallyTimeSpent" value="15131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -318,20 +552,20 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2855228" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.19546743" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32719547" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.5184136" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.54532576" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53257793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -349,6 +583,18 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/controller/FileUploadController.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/eureka-server/src/main/java/com/newstar/eurekaserver/EurekaServerApplication.java">
@@ -465,30 +711,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-consumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="263">
           <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
@@ -497,6 +722,200 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/service/DCService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/controller/DCController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
+            <element signature="e#469#470#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/EurekaConsumerFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-consumer-feign/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/upload.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1249">
+          <caret line="174" selection-start-line="174" selection-end-line="174" />
+          <folding>
+            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2155#2156#0" expanded="true" />
+            <element signature="e#6484#6648#0" expanded="true" />
+            <element signature="e#6647#6648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/UploadTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="32" column="15" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/service/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/EurekaFeignUploadServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/controller/UploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/controller/FileUploadController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="47" />
         </state>
       </provider>
     </entry>

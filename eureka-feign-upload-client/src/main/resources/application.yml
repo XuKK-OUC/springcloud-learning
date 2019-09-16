@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: eureka-feign-upload-client
+server:
+  port: 10002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+## \u8FD9\u4E2AIFeignService\u662F\u52A0\u4E86@FeignClient\u6CE8\u89E3\u7684\u7C7B
+#UploadService:
+  #ribbon:
+    ## \u670D\u52A1\u63D0\u4F9B\u8005\u7684\u5730\u5740\uFF0C\u4E0D\u662F\u670D\u52A1\u6CE8\u518C\u4E2D\u5FC3\u7684\u5730\u5740
+    #listOfServers: http://localhost:7777
+
+## \u8FD9\u4E2A\u8981\u6709\uFF0C\u5982\u679C\u4E0D\u52A0\uFF0C\u53EA\u52A0\u4E86\u4E0A\u9762\u4E5F\u6CA1\u7528
+#ribbon:
+  #eureka:
+   # enabled: false
+#hystrix\u7684\u8D85\u65F6\u65F6\u95F4
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 9000
+#ribbon\u7684\u8D85\u65F6\u65F6\u95F4
+ribbon:
+  ReadTimeout: 3000
+  ConnectTimeout: 3000

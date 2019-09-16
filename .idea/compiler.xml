@@ -8,7 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client" />
         <module name="eureka-consumer" />
+        <module name="eureka-consumer-feign" />
         <module name="eureka-consumer-ribbon" />
+        <module name="eureka-feign-upload-client" />
+        <module name="eureka-feign-upload-server" />
         <module name="eureka-server" />
         <module name="springcloud-learning" />
       </profile>
@@ -18,7 +21,10 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-consumer-feign" options="-parameters" />
       <module name="eureka-consumer-ribbon" options="-parameters" />
+      <module name="eureka-feign-upload-client" options="-parameters" />
+      <module name="eureka-feign-upload-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
     </option>
   </component>
