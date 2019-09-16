@@ -22,6 +22,7 @@ public class DCController {
         StringBuilder stringBuilder = new StringBuilder();
         for(String s:services){
             stringBuilder.append(s);
+            stringBuilder.append("\r\n");
         }
         return stringBuilder.toString();
     }

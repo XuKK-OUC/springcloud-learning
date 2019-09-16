@@ -1,0 +1,14 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: springcloud-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+zuul:
+  routes:
+    suibian: #\u968F\u4FBF\u8D77\u4E2A\u540D\u5B57,\u54EA\u4E00\u7EC4serviceId\u548Cpath\u76F8\u5BF9\u5E94,\u4E0D\u8D77\u540D\u5B57\u4F1A\u62A5\u9519
+      serviceId: eureka-client
+      path: /myclient/**
