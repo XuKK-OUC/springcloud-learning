@@ -31,7 +31,7 @@ public class FileUploadController {
     public void testHandleFileUpload() {
         Logger log = LoggerFactory.getLogger(FileUploadController.class);
 
-        File file = new File("G:\\upload.txt");
+        File file = new File("D:\\upload.txt");
         DiskFileItem fileItem = (DiskFileItem) new DiskFileItemFactory().createItem("file",
                 MediaType.TEXT_PLAIN_VALUE, true, file.getName());
 
@@ -44,6 +44,7 @@ public class FileUploadController {
         MultipartFile multi = new CommonsMultipartFile(fileItem);
 
         log.info(uploadService.handleFileUpload(multi));
+        System.out.println("信息"+uploadService.handleFileUpload(multi));
     }
 
 }

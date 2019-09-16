@@ -13,6 +13,7 @@
         <module name="eureka-feign-upload-client" />
         <module name="eureka-feign-upload-server" />
         <module name="eureka-server" />
+        <module name="share-springcloud" />
         <module name="springcloud-learning" />
       </profile>
     </annotationProcessing>
