@@ -11,11 +11,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @Value("${server.port}")
-    private String port;
+    @Value("${spring.application.name}")
+    private String name;
     @RequestMapping("/config")
     public String config(){
-        System.out.println("端口号为:"+port);
-        return "端口号"+port;
+        System.out.println("spring.application.name为:"+name);
+        return "spring application name为:"+name;
     }
 }

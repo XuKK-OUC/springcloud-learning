@@ -1,9 +1,31 @@
 server:
   port: 9003
+# config-server 未注册进eureka之前的配置
+#spring:
+  #cloud:
+    #config:
+      #uri: http://localhost:9002
+      #name: myconfig
+      #profile: test
+      #label: master
+
+# config-server 注册进eureka之后的配置
 spring:
   cloud:
     config:
-      uri: http://localhost:9002
-      name: myconfig
       profile: dev
       label: master
+      discovery:
+        service-id: config-server    #config-server注册进eureka的application-name
+        enabled: true                 #开启服务发现,表示使用服务发现组件中的配置中心,而不是自己制定配置中心,默认为false
+  application:
+    name: myconfig     #要读取的从config-server中寻找的配置文件的内容,不要加.yml
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info

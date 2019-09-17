@@ -1,3 +1,4 @@
+
 server:
   port: 9002
 spring:
@@ -6,3 +7,9 @@ spring:
       server:
         git:
           uri: https://github.com/XuKK-OUC/sringcloud-config-learning.git
+  application:
+    name: config-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1001/eureka
