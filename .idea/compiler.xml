@@ -13,6 +13,8 @@
         <module name="eureka-feign-upload-client" />
         <module name="eureka-feign-upload-server" />
         <module name="eureka-server" />
+        <module name="springcloud-config-client-9003" />
+        <module name="springcloud-config-server-9002" />
         <module name="springcloud-hystrix" />
         <module name="springcloud-learning" />
         <module name="springcloud-zuul" />
@@ -33,6 +35,8 @@
       <module name="eureka-feign-upload-client" options="-parameters" />
       <module name="eureka-feign-upload-server" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="springcloud-config-client-9003" options="-parameters" />
+      <module name="springcloud-config-server-9002" options="-parameters" />
       <module name="springcloud-consumer-ribbon-hystrix" options="-parameters" />
       <module name="springcloud-hystrix" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
