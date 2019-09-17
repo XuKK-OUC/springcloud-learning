@@ -18,6 +18,8 @@
         <option value="$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger-service-a/pom.xml" />
+        <option value="$PROJECT_DIR$/swagger-service-b/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

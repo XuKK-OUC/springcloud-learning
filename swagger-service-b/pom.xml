@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.atnewstar</groupId>
-    <artifactId>springcloud-zuul</artifactId>
+    <artifactId>swagger-service-b</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springcloud-zuul</name>
+    <name>swagger-service-b</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -29,15 +29,11 @@
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
-        </dependency>
-        <!--Swagger依赖-->
-        <dependency>
             <groupId>com.spring4all</groupId>
             <artifactId>swagger-spring-boot-starter</artifactId>
             <version>1.7.0.RELEASE</version>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

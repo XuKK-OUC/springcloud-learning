@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-hystrix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swagger-service-a" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/swagger-service-b" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

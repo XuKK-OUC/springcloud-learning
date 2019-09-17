@@ -30,6 +30,12 @@ public class MyZuulFilter extends ZuulFilter {
 
     @Override
     public boolean shouldFilter() {
+        RequestContext ctx = RequestContext.getCurrentContext();
+        HttpServletRequest request = ctx.getRequest();
+        String ignoreUrl = request.getRequestURL().toString();
+        if(ignoreUrl.contains("swagger-service")){
+            return false;
+        }
         return true;
     }
 
