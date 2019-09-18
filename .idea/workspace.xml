@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c2214b7d-8fe8-471a-9fd5-22b1bb11aa95" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/resources/config-server.keystore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/Receiver/SinkReceiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/producer/SinkSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-client-9003/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-client-9003/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/SpringcloudConfigClient9003Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/SpringcloudConfigClient9003Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-server-9002/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server-9002/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/java/com/atnewstar/springcloudconfigserver9002/SpringcloudConfigServer9002Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/java/com/atnewstar/springcloudconfigserver9002/SpringcloudConfigServer9002Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server-9002/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,6 +26,8 @@
     <ignored path="$PROJECT_DIR$/swagger-service-b/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-config-server-9002/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-config-client-9003/target/" />
+    <ignored path="$PROJECT_DIR$/stream-hello/target/" />
+    <ignored path="$PROJECT_DIR$/stream-producer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,71 +35,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/StreamProducerApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/StreamHelloApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-server-9002/src/main/java/com/atnewstar/springcloudconfigserver9002/SpringcloudConfigServer9002Application.java">
+        <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="360">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-producer/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/producer/SinkSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/SpringcloudConfigClient9003Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/bootstrap.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/controller/HelloController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="18" column="47" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-config-client-9003/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -121,16 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eureka-consumer/src/main/java/com/atnewstar/eurekaconsumer/controller/DCController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/config/MyConfig.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/EurekaConsumerRibbonApplication.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/java/com/atnewstar/eurekaconsumerribbon/controller/DCController.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-ribbon/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/service/DCService.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/controller/DCController.java" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/eureka-consumer-feign/src/main/java/com/atnewstar/eurekaconsumerfeign/EurekaConsumerFeignApplication.java" />
         <option value="$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/EurekaFeignUploadServerApplication.java" />
         <option value="$PROJECT_DIR$/eureka-consumer-feign/pom.xml" />
         <option value="$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplication.java" />
@@ -172,6 +140,16 @@
         <option value="$PROJECT_DIR$/springcloud-config-client-9003/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/springcloud-config-client-9003/src/main/java/com/atnewstar/springcloudconfigclient9003/SpringcloudConfigClient9003Application.java" />
         <option value="$PROJECT_DIR$/springcloud-config-server-9002/src/main/java/com/atnewstar/springcloudconfigserver9002/SpringcloudConfigServer9002Application.java" />
+        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/Receiver/SinkReceiver.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/test/java/com/atnewstar/streamhello/SinkApplicationTests.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/sinkSenderTester.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/test/java/com/atnewstar/streamhello/sinkSenderTester.java" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/producer/SinkSender.java" />
+        <option value="$PROJECT_DIR$/stream-producer/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/stream-hello/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -200,7 +178,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="933" />
+    <option name="x" value="639" />
+    <option name="y" value="27" />
     <option name="width" value="1036" />
     <option name="height" value="1043" />
   </component>
@@ -223,37 +202,28 @@
             <path>
               <item name="share-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="share-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-9002" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="share-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-9002" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="share-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-9002" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="share-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="share-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-9002" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="share-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="share-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-config-server-9002" type="462c0819:PsiDirectoryNode" />
+              <item name="stream-hello" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudconfigserver9002" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,7 +239,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568718309742" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1568798095184" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -278,6 +248,9 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.atnewstar.streamhello" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\share-springcloud\springcloud-config-server-9002\src\main\resources" />
       <recent name="D:\share-springcloud\swagger-service-b\src\main\resources" />
@@ -298,23 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudConfigClient9003Application">
-    <configuration name="EurekaFeignUploadClientApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="eureka-feign-upload-client" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atnewstar.eurekafeignuploadclient.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
-      <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.EurekaFeignUploadClientApplicationTests" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Spring Boot.StreamProducerApplication">
     <configuration name="EurekaFeignUploadClientApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="eureka-feign-upload-client" />
       <extension name="coverage">
@@ -326,6 +283,22 @@
       <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
       <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.EurekaFeignUploadClientApplicationTests" />
       <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SinkApplicationTests.sinkSenderTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.streamhello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.streamhello" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.streamhello.SinkApplicationTests" />
+      <option name="METHOD_NAME" value="sinkSenderTester" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -357,6 +330,22 @@
       <option name="PACKAGE_NAME" value="com.atnewstar.eurekafeignuploadclient" />
       <option name="MAIN_CLASS_NAME" value="com.atnewstar.eurekafeignuploadclient.UploadTester" />
       <option name="METHOD_NAME" value="testHandleFileUpload" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="sinkSenderTester.sinkSenderTester" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="stream-hello" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atnewstar.streamhello.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atnewstar.streamhello" />
+      <option name="MAIN_CLASS_NAME" value="com.atnewstar.streamhello.sinkSenderTester" />
+      <option name="METHOD_NAME" value="sinkSenderTester" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -439,6 +428,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamHelloApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
+      <module name="stream-hello" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.streamhello.StreamHelloApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="stream-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.streamproducer.StreamProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SwaggerServiceAApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="swagger-service-a" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atnewstar.swaggerservicea.SwaggerServiceAApplication" />
@@ -453,12 +457,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="JUnit.EurekaFeignUploadClientApplicationTests.test" />
+      <item itemvalue="JUnit.SinkApplicationTests.sinkSenderTester" />
+      <item itemvalue="JUnit.sinkSenderTester.sinkSenderTester" />
+      <item itemvalue="JUnit.UploadTester" />
+      <item itemvalue="JUnit.UploadTester.testHandleFileUpload" />
+      <item itemvalue="Spring Boot.EurekaClientApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerFeignApplication" />
+      <item itemvalue="Spring Boot.EurekaConsumerRibbonApplication" />
+      <item itemvalue="Spring Boot.EurekaFeignUploadClientApplication" />
+      <item itemvalue="Spring Boot.EurekaFeignUploadServerApplication" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConfigClient9003Application" />
+      <item itemvalue="Spring Boot.SpringcloudConfigServer9002Application" />
+      <item itemvalue="Spring Boot.SpringcloudHystrixApplication" />
+      <item itemvalue="Spring Boot.SpringcloudZuulApplication" />
+      <item itemvalue="Spring Boot.StreamHelloApplication" />
+      <item itemvalue="Spring Boot.SwaggerServiceAApplication" />
+      <item itemvalue="Spring Boot.SwaggerServiceBApplication" />
+      <item itemvalue="Spring Boot.StreamProducerApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.sinkSenderTester.sinkSenderTester" />
+        <item itemvalue="JUnit.SinkApplicationTests.sinkSenderTester" />
         <item itemvalue="JUnit.UploadTester" />
         <item itemvalue="JUnit.UploadTester.testHandleFileUpload" />
         <item itemvalue="JUnit.EurekaFeignUploadClientApplicationTests.test" />
-        <item itemvalue="JUnit.EurekaFeignUploadClientApplicationTests.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -473,26 +500,12 @@
       <option name="presentableId" value="Default" />
       <updated>1568596714636</updated>
       <workItem from="1568596717056" duration="15131000" />
-      <workItem from="1568628301601" duration="29175000" />
+      <workItem from="1568628301601" duration="32418000" />
+      <workItem from="1568789601083" duration="5143000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UploadTester - 2019.09.16 at 11h 50m 44s.xml">
-      <configuration name="UploadTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UploadTester - 2019.09.16 at 14h 04m 14s.xml">
-      <configuration name="UploadTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UploadTester - 2019.09.16 at 14h 05m 35s.xml">
-      <configuration name="UploadTester" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaFeignUploadClientApplicationTests_contextLoads - 2019.09.16 at 14h 07m 53s.xml">
-      <configuration name="EurekaFeignUploadClientApplicationTests.contextLoads" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EurekaFeignUploadClientApplicationTests_test - 2019.09.16 at 14h 09m 22s.xml">
-      <configuration name="EurekaFeignUploadClientApplicationTests.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UploadTester_testHandleFileUpload - 2019.09.16 at 14h 27m 04s.xml">
       <configuration name="UploadTester.testHandleFileUpload" configurationId="JUnit" />
     </history-entry>
@@ -508,15 +521,30 @@
     <history-entry file="UploadTester - 2019.09.16 at 14h 35m 22s.xml">
       <configuration name="UploadTester" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SinkApplicationTests_sinkSenderTester - 2019.09.18 at 15h 17m 58s.xml">
+      <configuration name="SinkApplicationTests.sinkSenderTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinkApplicationTests_sinkSenderTester - 2019.09.18 at 15h 18m 33s.xml">
+      <configuration name="SinkApplicationTests.sinkSenderTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SinkApplicationTests_sinkSenderTester - 2019.09.18 at 15h 20m 29s.xml">
+      <configuration name="SinkApplicationTests.sinkSenderTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sinkSenderTester_sinkSenderTester - 2019.09.18 at 15h 27m 30s.xml">
+      <configuration name="sinkSenderTester.sinkSenderTester" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="sinkSenderTester_sinkSenderTester - 2019.09.18 at 15h 28m 28s.xml">
+      <configuration name="sinkSenderTester.sinkSenderTester" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44306000" />
+    <option name="totallyTimeSpent" value="52692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2185501" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -526,13 +554,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30694142" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3329718" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.53257793" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3264642" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.36767897" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3286119" />
@@ -590,77 +618,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/test/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplicationTests.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/EurekaFeignUploadServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/upload.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/EurekaFeignUploadClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/eureka-feign-upload-client/src/main/java/com/atnewstar/eurekafeignuploadclient/service/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-360" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/java/com/atnewstar/springcloudconsumerribbonhystrix/config/MyConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/java/com/atnewstar/springcloudconsumerribbonhystrix/controller/DCController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/java/com/atnewstar/springcloudconsumerribbonhystrix/SpringcloudConsumerRibbonHystrixApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/java/com/atnewstar/springcloudconsumerribbonhystrix/controller/DCController.java" />
+    <entry file="file://$PROJECT_DIR$/springcloud-consumer-ribbon-hystrix/src/main/java/com/atnewstar/springcloudconsumerribbonhystrix/SpringcloudConsumerRibbonHystrixApplication.java" />
     <entry file="file://$PROJECT_DIR$/eureka-consumer-ribbon/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -723,13 +682,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-zuul/src/main/java/com/atnewstar/springcloudzuul/filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-zuul/src/main/java/com/atnewstar/springcloudzuul/filter.java" />
     <entry file="file://$PROJECT_DIR$/eureka-feign-upload-server/src/main/java/com/atnewstar/eurekafeignuploadserver/controller/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -945,11 +898,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-config-server-9002/src/main/java/com/atnewstar/springcloudconfigserver9002/SpringcloudConfigServer9002Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="330">
           <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/test/java/com/atnewstar/streamhello/SinkApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="26" column="39" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/test/java/com/atnewstar/streamhello/sinkSenderTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/Receiver/SinkReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="65" selection-start-line="4" selection-start-column="65" selection-end-line="4" selection-end-column="65" />
+          <folding>
+            <element signature="e#430#431#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="21" selection-start-line="30" selection-start-column="8" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-producer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/producer/SinkSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-producer/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-producer/src/main/java/com/atnewstar/streamproducer/StreamProducerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/java/com/atnewstar/streamhello/StreamHelloApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stream-hello/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>

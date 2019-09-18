@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/swagger-service-b/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config-server-9002/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-config-client-9003/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
+        <option value="$PROJECT_DIR$/stream-producer/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

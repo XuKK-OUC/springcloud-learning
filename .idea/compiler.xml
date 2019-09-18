@@ -18,6 +18,8 @@
         <module name="springcloud-hystrix" />
         <module name="springcloud-learning" />
         <module name="springcloud-zuul" />
+        <module name="stream-hello" />
+        <module name="stream-producer" />
         <module name="swagger-service-a" />
         <module name="swagger-service-b" />
       </profile>
@@ -40,6 +42,8 @@
       <module name="springcloud-consumer-ribbon-hystrix" options="-parameters" />
       <module name="springcloud-hystrix" options="-parameters" />
       <module name="springcloud-zuul" options="-parameters" />
+      <module name="stream-hello" options="-parameters" />
+      <module name="stream-producer" options="-parameters" />
       <module name="swagger-service-a" options="-parameters" />
       <module name="swagger-service-b" options="-parameters" />
     </option>
