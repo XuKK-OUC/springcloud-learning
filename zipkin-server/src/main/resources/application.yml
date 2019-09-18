@@ -1,0 +1,10 @@
+server:
+  port: 9488
+
+#\u5982\u679C\u4E0D\u52A0\u4E0B\u9762\u8FD9\u6BB5,\u4F1A\u62A5\u9519,Prometheus requires that all meters with the same name have the same set of tag keys. There is already an existing meter containing tag keys [method, status, uri]. The meter you are attempting to register has keys [exception, method, status, uri].
+
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false

@@ -1,3 +1,8 @@
 spring:
   application:
     name: trace-1
+  zipkin:
+    base-url: http://localhost:9488
+  sleuth:
+    sampler:
+      probability: 1.0  #样本概率

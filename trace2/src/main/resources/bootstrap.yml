@@ -2,6 +2,11 @@
 spring:
   application:
     name: trace-2
+  zipkin:
+    base-url: http://localhost:9488
+  sleuth:
+    sampler:
+      probability: 1.0   #\u6982\u7387
 server:
   port: 8082
 eureka:
