@@ -24,6 +24,8 @@
         <option value="$PROJECT_DIR$/springcloud-config-client-9003/pom.xml" />
         <option value="$PROJECT_DIR$/stream-hello/pom.xml" />
         <option value="$PROJECT_DIR$/stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/trace2/pom.xml" />
+        <option value="$PROJECT_DIR$/trace1/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
