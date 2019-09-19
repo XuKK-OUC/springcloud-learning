@@ -1,8 +1,16 @@
 spring:
   application:
     name: trace-1
-  zipkin:
-    base-url: http://localhost:9488
   sleuth:
     sampler:
       probability: 1.0  #样本概率
+  #未使用消息中间件收集追踪信息
+  #zipkin:
+    #base-url: http://localhost:9488
+
+  #使用消息中间件收集追踪信息
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest

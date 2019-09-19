@@ -2,8 +2,16 @@
 spring:
   application:
     name: trace-2
-  zipkin:
-    base-url: http://localhost:9488
+    #\u672A\u4F7F\u7528\u6D88\u606F\u4E2D\u95F4\u4EF6\u6536\u96C6\u8FFD\u8E2A\u4FE1\u606F
+    #zipkin:
+    #base-url: http://localhost:9488
+
+    #\u4F7F\u7528\u6D88\u606F\u4E2D\u95F4\u4EF6\u6536\u96C6\u8FFD\u8E2A\u4FE1\u606F
+    rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
   sleuth:
     sampler:
       probability: 1.0   #\u6982\u7387
